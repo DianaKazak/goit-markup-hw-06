@@ -797,6 +797,12 @@ p {
     position: absolute;
     margin-top: 11px;
     margin-left: 12px;
+    fill: #212121;
+}
+
+.form-icon:hover,
+.form-icon:focus {
+    fill: #2196F3;
 }
 
 .section1-input-checkbox {
