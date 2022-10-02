@@ -569,6 +569,11 @@ p {
     transform: translate(-50%, -50%);
 }
 
+.close-icon:hover,
+.close-icon:focus {
+    fill: #2196F3;
+}
+
 .header-item {
     position: relative;
 }
