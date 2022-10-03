@@ -639,10 +639,6 @@ p {
     color: #FFFFFF;
 }
 
-.footer-label {
-    
-}
-
 .footer-input {
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -752,6 +748,7 @@ p {
     width: 100%;
     padding-left: 16px;
     padding-top: 12px;
+    outline: none;
 }
 
 .section1-textarea:hover,
