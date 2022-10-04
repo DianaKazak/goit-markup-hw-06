@@ -702,10 +702,6 @@ p {
     margin-left: 10px;
 }
 
-.section1-form {
-
-}
-
 .section1-form-text {
     font-family: 'Roboto';
     font-style: normal;
@@ -762,10 +758,9 @@ p {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
-    padding-top: 20px;
+    display: flex;
 }
 
 .label1 a {
@@ -792,7 +787,7 @@ p {
 
 .form-element1 {
     padding-top: 10px;
-        
+    display: flex;
 }
 
 .input-wrap {
@@ -815,7 +810,31 @@ p {
 }
 
 .section1-input-checkbox {
-    
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.accept {
+    border: 2px solid #212121;
+    width: 15px;
+    height: 15px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.form-element1 input:checked + .accept {
+    background: #2196F3;
+    border: 2px solid #2196F3;
 }
 
 .section1-btn {
